@@ -1,0 +1,18 @@
+Goal 
+	Create a program that is able to read, store, and perform operations that are given in machine code.
+
+Known
+	list of operations and code for those operations that have different meanings
+	Each operation will interact with memory in some way
+
+
+Process
+	Create an empty 100 slot memory array
+	Create an accumulator, program_counter, opcode, and operatnd variables
+	Create an instructionRegister ArrayList
+	Create a FileReader that is reads out the file of every operation
+	store all instructions from the file into instructionRegister
+	Make a forloop that runs throught every instruction 
+	Break instructions into operation and operand
+	Make if statements for every operation that call a method for every operation
+	Once all if instructions are done then display a memory dump in the way specified
